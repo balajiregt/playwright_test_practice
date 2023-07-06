@@ -18,7 +18,7 @@ test.describe('qbank server', () => {
 
     });
 
-    test('postlogin', async ({ page }) => {
+    test('login-postlogin', async ({ page }) => {
         await page.goto('https://qbank.accelq.com/')
         await page.type('#qb-username','qbankadmin')
         await page.type('#qb-password','pass123')
