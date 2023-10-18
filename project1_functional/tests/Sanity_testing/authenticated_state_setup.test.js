@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 const authFile = 'C:/Users/kbala/OneDrive/Desktop/Playwright_projects/project1_functional/tests/Sanity_testing/auth.json';
 
-test('authenticate', async ({ page }) => {
+test('authenticate user', async ({ page }) => {
   // Perform authentication steps. Replace these actions with your own.
   await page.goto('https://bookcart.azurewebsites.net/login');
   await page.locator('#mat-input-0').fill('waheedahiya');
