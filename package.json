@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "playwright": "^1.35.1"
+  },
+  "scripts": {
+    "security:staged": "node scripts/security-gate.mjs",
+    "security:hooks": "node scripts/install-security-hook.mjs",
+    "security:check": "python3 scripts/security_audit.py"
   }
 }
