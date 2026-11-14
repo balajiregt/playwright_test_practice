@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "playwright": "^1.35.1"
+    "playwright": "^1.65.0"
   },
   "scripts": {
     "security:staged": "node scripts/security-gate.mjs",
